@@ -1,0 +1,24 @@
+body{
+    background-color: darkslategrey;
+}
+.container{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 7%;
+    background-color: azure;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 97%;
+}
+
+input[type=number] {
+    width: 97%;
+}
+
+button {
+    width: 80px;
+}

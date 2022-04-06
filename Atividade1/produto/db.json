@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "descricao": "Frutas"
+    },
+    {
+      "id": 1,
+      "descricao": "Verduras"
+    },
+    {
+      "id": 1,
+      "descricao": "Carnes"
+    }
+  ]
+}

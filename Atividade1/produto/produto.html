@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styleproduto.css">
+    <script src="scriptproduto.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="loadCategoria()">
+    <div class="container">
+        <h1>CADASTRO PRODUTO</h1>
+        <form action="#" method="POST">
+            <hr>
+            <input type="text" placeholder="Informe Descrição" />
+            <input type="number" placeholder="Preço Unitário" />
+            <input type="number" placeholder="Unidade de Medida" />
+            <input type="text" placeholder="Informe Fornecedor" />
+            <br>
+            <br>
+            <select id="categoria">
+            </select>
+            <br>
+            <br>
+            <hr>
+        </form>
+        <button onclick="onSubmit()">Gravar</button>
+        <button onclick="reset()">Cancelar</button> 
+    </div>
+</body>
+
+</html>

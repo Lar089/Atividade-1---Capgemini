@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: silver;
+    padding: 5px;
+    text-align: left;
+}
+
+ol {
+    list-style-type: none;
+}
+
+.conf {
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    display: none;
+}
+
+.container:hover .principal {
+    display: block;
+}
+
+.dropbtn {
+    border: none;
+    background-color: silver;
+    color: white;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: silver;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: silver;
+}
+
+.principal {
+    grid-area: principal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'principal principal principal principal principal'
+    'principal principal principal principal principal'
+    'principal principal principal principal principal';
+    gap: 10px;
+    background-color: cadetblue;
+    padding: 290px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
